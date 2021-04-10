@@ -1,0 +1,31 @@
+$black: rgba(black, 0.88);
+$soft-white: #ECF0F1;
+$principal-blue: #2471A3;
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 2rem;
+    background-color: $principal-blue;
+    color: $black;
+    text-align: center;
+}
+
+.container{
+    width: 50%;
+    padding: 5rem;
+    margin: 10rem auto 0 auto;
+    background-color: $soft-white;
+    box-shadow: 1px 14px 27px -6px rgba(46,45,46,1);
+}
+
+.title, .paragraph{
+    padding: 2rem;
+}
