@@ -55,14 +55,6 @@ module.exports = {
         }),
         
         new CleanWebpackPlugin(),
-        new CopyPlugin({
-            patterns: [
-                {
-                    from: path.resolve(__dirname, "src", "images"),
-                    to: "images"
-                }
-            ]
-        })
     ],
     optimization: {
         minimize: true,
